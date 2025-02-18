@@ -1,0 +1,7 @@
+# Ignore SQLite database
+prisma/dev.db
+prisma/dev.db-wal
+prisma/dev.db-shm
+
+# Ignore environment variables
+.env
