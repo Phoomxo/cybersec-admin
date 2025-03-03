@@ -1,0 +1,20 @@
+### เพิ่มข้อมูล \
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+    "username": "poom789789798",
+    "password": "1234"
+}
+
+### อัปเดตข้อมูล 
+PUT http://localhost:3000/user/1
+Content-Type: application/json
+
+{
+    "username": "poom_updated",
+    "password": "5678"
+}
+
+### ลบข้อมูล
+DELETE http://localhost:3000/user/1
